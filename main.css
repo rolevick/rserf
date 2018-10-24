@@ -101,7 +101,7 @@
      width: 36px;
      height: 29px;
      z-index: -1;
-     background: url("rserf.github.io/ковычки.jpg")no-repeat center/ cover;
+     background: url("https://github.com/rolevick/rserf.github.io/blob/master/ковычки.jpg?raw=true")no-repeat center/ cover;
    }
  
  .review-item__text {
