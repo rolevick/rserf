@@ -15,9 +15,6 @@
    align-items: baseline;
 
  }
- .nav {
-
- }
 
  .nav__item {
    color: #aaaaaa;
@@ -103,6 +100,7 @@
      z-index: -1;
      background: url(https://github.com/rolevick/rserf.github.io/blob/master/ковычки.jpg?raw=true)no-repeat center/ cover;
    }
+}
  
  .review-item__text {
    color: #999;
