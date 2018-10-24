@@ -1,0 +1,354 @@
+ body {
+  font-family: 'Lato', sans-serif;
+  color: #000;
+}
+ .text-center {
+   text-align: center;
+ }
+ .nav-wrapper {
+   padding-top: 92px;
+   width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: baseline;
+
+ }
+ .nav {
+
+ }
+
+ .nav__item {
+   color: #aaaaaa;
+   font-size: 15px;
+   font-weight: 500;
+   text-transform: uppercase;
+   letter-spacing: 0.3px;
+   margin-right: 70px;
+   text-decoration: none;
+   transition: all 0.2s easy;
+ }
+ .nav__item:last-child {
+   margin-right: 0;
+ }
+
+ #menu .nav__item--active {
+   color: #000000;
+ }
+ .header-wrapper {
+   width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+   height: 900px;
+   margin-top: 220px;
+   margin-bottom: 230px;
+
+ }
+
+ .header-title {
+   font-family: 'Playfair Display',serif;
+   font-size: 70px;
+   font-weight: 400;
+   line-height: 1.4;
+   letter-spacing: 0.57px;
+   text-align: center;
+   margin-bottom: 45px;
+ }
+ .header-description {
+   color: #999999;
+   font-size: 16px;
+   font-weight: 400;
+   letter-spacing: 0.06px;
+   line-height: 1.8;
+   text-align: center;
+ }
+ p {
+   margin-top: 0;
+   margin-bottom: 15px;
+ }
+ .header-content {
+   padding-top: 210px;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+ }
+ .reviws {
+   width: 220px;
+   margin-right: 20px;
+ }
+ .reviews__title {
+   color: #000;
+   font-family: 'Playfair Display',serif;
+   font-size: 36px;
+   font-weight: 400;
+   letter-spacing: 0.29px;
+   margin-bottom: 45px;
+
+ }
+ .review-item {
+   position: relative;
+   padding-bottom: 15px;
+   border-bottom: 0.7px solid #e7e7e7;
+   margin-bottom: 25px;
+   }
+   .review-item:before {
+     position: absolute;
+     top: 0;
+     left:-18px;
+     content: "";
+     display: block;
+     width: 36px;
+     height: 29px;
+     z-index: -1;
+     background: url("../img/ковычки.jpg")no-repeat center/ cover;
+   }
+ }
+ .review-item__text {
+   color: #999;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 1.9;
+   font-style: italic;
+   padding-top: 45px;
+   margin-top: 45px;
+
+ }
+ .review-item__author {
+   color: #000;
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 1.9;
+   margin-top: 10px;
+
+ }
+ .video {
+  width: 280px;
+ }
+
+ .video__title {
+   color: #000;
+   font-family: 'Playfair Display',serif;
+   font-size: 36px;
+   font-weight: 400;
+   letter-spacing: 0.29px;
+   margin-bottom: 25px;
+
+ }
+
+ .video-item {
+   position: relative;
+   overflow: hidden;
+   margin-bottom: 36px;
+
+
+ }
+ .header-content {
+   padding-top: 210px;
+   display: flex;
+   justify-content: space-between;
+ }
+ .play-icon {
+   position: relative;
+   width: 56px;
+   height: 56px;
+   background-color: #FFF;
+   border-radius: 50px;
+
+ }
+ .play-icon:before {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   margin-left: -4px;
+   margin-top: -5.5px;
+   content: "";
+   display: block;
+   width: 0;
+   height: 0;
+   border-top: 5.5px solid transparent;
+   border-left: 8px solid #000;
+   border-bottom: 5.5px solid transparent;
+ }
+ .video-item .play-icon {
+   position: absolute;
+   left: -10px;
+   bottom: -15px;
+ }
+ .video-center{
+   position: relative;
+ }
+ .video-center .play-icon  {
+   position: absolute;
+   left: 20px;
+   bottom: 28px;
+ }
+ img {
+   display: block;
+   max-width: 100%;
+ }
+ .container {
+   width: 900px;
+   margin-left: auto;
+   margin-right: auto;
+
+ }
+ .header-1 {
+   color: #000;
+   font-family: 'Playfair Display',serif;
+   font-size: 50px;
+   font-weight: 100;
+   letter-spacing: 0.41px;
+   text-align: center;
+   margin-top: 0;
+   margin-bottom: 85px;
+ }
+ .instructors-wrapper {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 255px;
+ }
+ .instructor {
+   text-align: center;
+
+ }
+ .instructor__photo {
+   margin-bottom: 30px;
+
+ }
+ .instructor__name {
+   color: #000;
+   font-family: 'Playfair Display',serif;
+   font-size: 30px;
+   font-weight: 100;
+   letter-spacing: 0.28px;
+   margin-bottom: 10px;
+
+ }
+ .instructor__students {
+   color: #2ab738;
+   font-size: 15px;
+   font-weight: 100;
+   letter-spacing: 0.14px;
+ }
+ .block-item {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 190px;
+ }
+ .block-item:nth-child(odd) {
+   flex-direction: row-reverse;
+   margin-bottom: 200px;
+ }
+ .block-item__image {
+
+ }
+ .block-item-content {
+   width: 300px;
+
+ }
+ .block-item__header {
+   color: #000;
+   font-family: 'Playfair Display',serif;
+   font-size: 40px;
+   letter-spacing: 0.33px;
+   font-style: italic;
+   margin-bottom: 25px;
+ }
+ .block-item__desc {
+   color: #444444;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 1.9;
+   letter-spacing: 0.06px;
+   margin-bottom: 29px;
+
+ }
+ .block-item__readmore {
+   display: inline-block;
+   height: 35px;
+   border: 1px solid #e5e5e5;
+   padding-left: 16px;
+   padding-top: 20px;
+   padding-right: 16px;
+   line-height: 1;
+   color: #000;
+   font-size: 16px;
+   font-weight: 700;
+   letter-spacing: 0.06px;
+   text-decoration: none;
+   transition: all 0.2s easy;
+   text-align: center;
+ }
+ .block-item__readmore:hover {
+   text-decoration: none;
+   background-color: black;
+   color: white;
+ }
+ .button {
+   display: inline-block;
+   height: 40px;
+   line-height: 1;
+   font-size: 17px;
+   font-weight: 500;
+   border: 1px solid #41475b;
+   background-color: #fff;
+   padding-left: 18px;
+   padding-top: 22px;
+   padding-right: 18px;
+   text-decoration: none;
+   color: #000;
+   transition: all 0.2s easy;
+
+ }
+ .button:hover {
+   text-decoration: none;
+   background-color: black;
+   color: white;
+ }
+ .mb-70 {
+   margin-bottom: 70px !important;
+ }
+ .cta-section {
+   margin-bottom: 145px;
+ }
+ .footer {
+   border-top: 1px solid #f2ede7;
+   padding-top: 40px;
+   padding-bottom: 30px;
+ }
+ .footer-container {
+   width: 990px;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   justify-content: space-between;
+ }
+ .footer-copyright {
+
+ }
+ .footer-copyright__title {
+   color: #000;
+   font-family: 'Playfair Display',serif;
+   font-size: 24px;
+   font-weight: 400;
+   line-height: 1;
+   margin-bottom: 25px;
+ }
+ .footer-copyright__text {
+   color: #9f9f9f;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 2;
+
+ }
+ .footer__madeby {
+   color: #9f9f9f;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 2;
+ }
+ .footer__madeby strong {
+   color: #000;
+   font-weight: 600;
+ }
